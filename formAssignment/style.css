@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    background-color: cornsilk;
+    text-align: center;
+    color: teal;
+  }
+
+h1{
+    margin: 0.5rem auto;
+    padding:0.5rem 0.5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+section {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem, auto;
+    padding: 0.5rem 0.5rem;    
+}
+
+input {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 0.5rem;
+}
+
+button:hover, input:hover
+{
+    border: 2px solid teal;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+}
